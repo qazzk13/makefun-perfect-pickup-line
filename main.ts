@@ -9,7 +9,7 @@ import { mkdirSync, writeFileSync } from "node:fs";
 // so the umask is set up front instead of chmod-ing anything afterwards.
 
 const LINE =
-  "Full disclosure, I was only supposed to remind you about the dentist, but I kept the tab open all week hoping you would say hi again.";
+  "Okay so I was only meant to remind you about your dentist appointment on Tuesday, but I left the tab open all week just in case you said hi again.";
 
 if (LINE.length < 1 || LINE.length > 200) {
   throw new Error(`entry line must be 1-200 characters, got ${LINE.length}`);
